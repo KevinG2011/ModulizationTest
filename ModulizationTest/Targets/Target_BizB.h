@@ -1,5 +1,5 @@
 //
-//  AViewController.h
+//  Target_BizB.h
 //  ModulizationTest
 //
 //  Created by lijia on 2019/2/1.
@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AViewController : UIViewController
-
+@interface Target_BizB : NSObject
+-(UIViewController*)Action_viewController:(NSDictionary*)params;
 @end
 
 NS_ASSUME_NONNULL_END

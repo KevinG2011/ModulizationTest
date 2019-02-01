@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,13 +13,14 @@
 		2AA508482203E14500CF4BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA508472203E14500CF4BD6 /* Assets.xcassets */; };
 		2AA5084B2203E14500CF4BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA508492203E14500CF4BD6 /* LaunchScreen.storyboard */; };
 		2AA5084E2203E14500CF4BD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5084D2203E14500CF4BD6 /* main.m */; };
-		2AA508572203E49B00CF4BD6 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA508552203E49B00CF4BD6 /* AViewController.m */; };
-		2AA508582203E49B00CF4BD6 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AA508562203E49B00CF4BD6 /* AViewController.xib */; };
 		2AA5085C2203E4B200CF4BD6 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5085A2203E4B200CF4BD6 /* BViewController.m */; };
 		2AA5085D2203E4B200CF4BD6 /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AA5085B2203E4B200CF4BD6 /* BViewController.xib */; };
+		2AA508D62204365500CF4BD6 /* Target_BizB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA508D52204365500CF4BD6 /* Target_BizB.m */; };
+		52A02F1E3945FF16C673FF4F /* libPods-ModulizationTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D73F3255DE73F6574833C23 /* libPods-ModulizationTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D73F3255DE73F6574833C23 /* libPods-ModulizationTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModulizationTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA5083B2203E14200CF4BD6 /* ModulizationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModulizationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA5083E2203E14200CF4BD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2AA5083F2203E14200CF4BD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,12 +31,13 @@
 		2AA5084A2203E14500CF4BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AA5084C2203E14500CF4BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AA5084D2203E14500CF4BD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2AA508542203E49B00CF4BD6 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		2AA508552203E49B00CF4BD6 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		2AA508562203E49B00CF4BD6 /* AViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
 		2AA508592203E4B200CF4BD6 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
 		2AA5085A2203E4B200CF4BD6 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		2AA5085B2203E4B200CF4BD6 /* BViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
+		2AA508D42204365500CF4BD6 /* Target_BizB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_BizB.h; sourceTree = "<group>"; };
+		2AA508D52204365500CF4BD6 /* Target_BizB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_BizB.m; sourceTree = "<group>"; };
+		6698221D6D3D8D43C51308C6 /* Pods-ModulizationTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulizationTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModulizationTest/Pods-ModulizationTest.debug.xcconfig"; sourceTree = "<group>"; };
+		89CCF5C124E8416DA5C4B4F2 /* Pods-ModulizationTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModulizationTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModulizationTest/Pods-ModulizationTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A02F1E3945FF16C673FF4F /* libPods-ModulizationTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		274CAA085A7370BF8039EEDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D73F3255DE73F6574833C23 /* libPods-ModulizationTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2AA508322203E14200CF4BD6 = {
 			isa = PBXGroup;
 			children = (
 				2AA5083D2203E14200CF4BD6 /* ModulizationTest */,
 				2AA5083C2203E14200CF4BD6 /* Products */,
+				C6C0009B27E9830F22007A44 /* Pods */,
+				274CAA085A7370BF8039EEDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,13 +81,11 @@
 		2AA5083D2203E14200CF4BD6 /* ModulizationTest */ = {
 			isa = PBXGroup;
 			children = (
+				2AA508D3220435F700CF4BD6 /* Targets */,
 				2AA5083E2203E14200CF4BD6 /* AppDelegate.h */,
 				2AA5083F2203E14200CF4BD6 /* AppDelegate.m */,
 				2AA508412203E14200CF4BD6 /* ViewController.h */,
 				2AA508422203E14200CF4BD6 /* ViewController.m */,
-				2AA508542203E49B00CF4BD6 /* AViewController.h */,
-				2AA508552203E49B00CF4BD6 /* AViewController.m */,
-				2AA508562203E49B00CF4BD6 /* AViewController.xib */,
 				2AA508592203E4B200CF4BD6 /* BViewController.h */,
 				2AA5085A2203E4B200CF4BD6 /* BViewController.m */,
 				2AA5085B2203E4B200CF4BD6 /* BViewController.xib */,
@@ -87,6 +98,24 @@
 			path = ModulizationTest;
 			sourceTree = "<group>";
 		};
+		2AA508D3220435F700CF4BD6 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				2AA508D42204365500CF4BD6 /* Target_BizB.h */,
+				2AA508D52204365500CF4BD6 /* Target_BizB.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		C6C0009B27E9830F22007A44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6698221D6D3D8D43C51308C6 /* Pods-ModulizationTest.debug.xcconfig */,
+				89CCF5C124E8416DA5C4B4F2 /* Pods-ModulizationTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AA508512203E14500CF4BD6 /* Build configuration list for PBXNativeTarget "ModulizationTest" */;
 			buildPhases = (
+				EDD3C687A3FCE9744770B0C6 /* [CP] Check Pods Manifest.lock */,
 				2AA508372203E14200CF4BD6 /* Sources */,
 				2AA508382203E14200CF4BD6 /* Frameworks */,
 				2AA508392203E14200CF4BD6 /* Resources */,
+				74E182BF7827F9735751693F /* [CP] Embed Pods Frameworks */,
+				367FFBF0FEF7A01C41A36AB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -118,11 +150,12 @@
 				TargetAttributes = {
 					2AA5083A2203E14200CF4BD6 = {
 						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 2AA508362203E14200CF4BD6 /* Build configuration list for PBXProject "ModulizationTest" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -145,7 +178,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AA5085D2203E4B200CF4BD6 /* BViewController.xib in Resources */,
-				2AA508582203E49B00CF4BD6 /* AViewController.xib in Resources */,
 				2AA5084B2203E14500CF4BD6 /* LaunchScreen.storyboard in Resources */,
 				2AA508482203E14500CF4BD6 /* Assets.xcassets in Resources */,
 				2AA508462203E14200CF4BD6 /* Main.storyboard in Resources */,
@@ -154,13 +186,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		367FFBF0FEF7A01C41A36AB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ModulizationTest/Pods-ModulizationTest-resources.sh",
+				"${PODS_ROOT}/../../BizA/BizA/AViewController.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModulizationTest/Pods-ModulizationTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74E182BF7827F9735751693F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModulizationTest/Pods-ModulizationTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD3C687A3FCE9744770B0C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModulizationTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AA508372203E14200CF4BD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AA508572203E49B00CF4BD6 /* AViewController.m in Sources */,
 				2AA508432203E14200CF4BD6 /* ViewController.m in Sources */,
+				2AA508D62204365500CF4BD6 /* Target_BizB.m in Sources */,
 				2AA5084E2203E14500CF4BD6 /* main.m in Sources */,
 				2AA5085C2203E4B200CF4BD6 /* BViewController.m in Sources */,
 				2AA508402203E14200CF4BD6 /* AppDelegate.m in Sources */,
@@ -303,15 +388,14 @@
 		};
 		2AA508522203E14500CF4BD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6698221D6D3D8D43C51308C6 /* Pods-ModulizationTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y68G5C7724;
 				INFOPLIST_FILE = ModulizationTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huajiao.ModulizationTest.ModulizationTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,15 +404,14 @@
 		};
 		2AA508532203E14500CF4BD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89CCF5C124E8416DA5C4B4F2 /* Pods-ModulizationTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y68G5C7724;
 				INFOPLIST_FILE = ModulizationTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huajiao.ModulizationTest.ModulizationTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

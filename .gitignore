@@ -1,3 +1,5 @@
 ConfigPrivatePod/
 xcuserdata/
 project.xcworkspace/
+Pods
+xcshareddata

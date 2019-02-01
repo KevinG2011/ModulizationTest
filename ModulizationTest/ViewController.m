@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "AViewController.h"
+#import <BizA_Category/CTMediator+BizA.h>
 
 @interface ViewController ()
 
@@ -21,8 +21,8 @@
 }
 
 - (IBAction)pushToA:(id)sender {
-    AViewController *avc = [[AViewController alloc] initWithNibName:nil bundle:nil];
-    [self.navigationController pushViewController:avc animated:YES];
+    UIViewController *viewController = [[CTMediator sharedInstance] BizA_aViewController];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 @end
